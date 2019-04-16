@@ -2,6 +2,7 @@ const staticAssetes = [
     "./",
     "./styles.css",
     "./app.js",
+    "assets/us.jpg",
     "./assets/favicon.png",
     "./assets/logo.svg",
 ]
