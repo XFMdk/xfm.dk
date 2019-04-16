@@ -11,9 +11,9 @@ self.addEventListener('install', async event => {
     cache.addAll(staticAssetes)
 })
 
-self.addEventListener('fetch', async event => {
+self.addEventListener('fetch', event => {
     const request = event.request
-    event.respondWith(cacheFiest(request))
+    event.respondWith(cacheFirst(request))
 })
 
 async function cacheFirst(request) {
